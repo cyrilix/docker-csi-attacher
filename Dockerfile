@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM golang:1.15-buster AS src
 
-ARG VERSION=v2.1.0
+ARG VERSION=v2.1.1
 ARG BUILDPLATFORM
 
 RUN git clone https://github.com/kubernetes-csi/external-attacher.git  /go/src/external-attacher
